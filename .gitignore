@@ -1,0 +1,10 @@
+_notes/
+dwsync.xml
+.DS_Store
+*.DS_Store
+img/
+images/
+*.jpg
+*.png
+*.gif
+*.jpeg
