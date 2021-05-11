@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+* {
+	box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+}
+
+html,
+body {
+}
+
+b,strong {
+  font-weight: bold;
+}
+
+img {
+  font-size: 0;
+  vertical-align: middle;
+	border: 0;
+	max-width: 100%;
+}
+
+ol,ul,li {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+th,
+td,
+caption {
+  font-weight: normal;
+  vertical-align: top;
+  text-align: left;
+}
