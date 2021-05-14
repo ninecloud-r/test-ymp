@@ -130,8 +130,7 @@ header {
 }
 
 .content-box-wrapper .text-box {
-	font-size: 14px;
-	line-height: 1.6;
+	line-height: 1.8;
 }
 
 footer {
@@ -220,6 +219,7 @@ text-align: center;
 	margin-top: 10px;
 	margin-bottom: 10px;
 	padding-left: 15px;
+	font-weight: bold;
 }
 
 .faq-section dl dd {
@@ -231,6 +231,11 @@ text-align: center;
 
 .main-image-area img {
 	max-width: 100%;
+}
+
+.page-description {
+	margin-bottom: 60px;
+	font-weight: bold;
 }
 
 @media(min-width: 1201px){
@@ -250,11 +255,18 @@ text-align: center;
 
 	.under-page .page-title {
 		width: 960px;
+		padding-top: 80px;
+		margin-bottom: 50px;
 }
 
-	.header-left .logo img {
-		width: 320px;
-	}
+.under-page .page-title h2{
+	font-size: 32px;
+}
+
+
+.header-left .logo img {
+	width: 320px;
+}
 
 	.main-image-area {
 		margin-left: auto;
@@ -274,6 +286,10 @@ text-align: center;
 	}
 	.main-image-area {
 		width: 100%;
+}
+
+.map-img {
+	text-align: center;
 }
 }
 
@@ -328,6 +344,10 @@ text-align: center;
 		padding: 10px;
 	}
 
+	.header-left .logo img {
+		width: 270px;
+	}
+
 	.article {
 		display: flex;
 		flex-wrap: wrap;
@@ -339,6 +359,7 @@ text-align: center;
 
 	.article .right-box {
 		width: 70%;
+		padding-left: 3%;
 	}
 
 }
