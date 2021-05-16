@@ -213,7 +213,7 @@ text-align: center;
 	text-align: center;
 	background: #aa050e;
 	color: #fff;
-	padding: 1% 0;
+	padding: 1% 2%;
 	border-radius: 4px;
 	margin-top: 20px;
 	margin-bottom: 20px;
@@ -231,6 +231,14 @@ text-align: center;
 
 .under-page .section h4 {
 	font-size: 18px;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.under-page .section h5 {
+	font-size: 14px;
+	margin-bottom: 5px;
+	letter-spacing: 3px;
 }
 
 .faq-section dl dd {
@@ -373,6 +381,10 @@ text-align: center;
 		width: 30%;
 	}
 
+	.article .left-box img{
+		width: 100%;
+	}
+
 	.article .right-box {
 		width: 70%;
 		padding-left: 3%;
@@ -429,7 +441,7 @@ text-align: center;
 	}
 
 	.under-page .section h3 {
-		padding: 3% 0;
+		padding: 3% 2%;
 		font-size: 16px;
 		letter-spacing: 1px;
 	}
@@ -457,6 +469,21 @@ text-align: center;
 
 	.image-box img{
 		max-width: 100%;
+	}
+
+	.staff-section .article  {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.staff-section .article .left-box {
+		width: 50%;
+	}
+
+	.staff-section .article .right-box {
+		width: 50%;
+		padding-left: 3%;
+		font-size: 13px;
 	}
 
 
