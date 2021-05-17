@@ -389,6 +389,15 @@ text-align: center;
 		width: 70%;
 		padding-left: 3%;
 	}
+    
+    .under-page .section p {
+        font-size: 14px;
+        line-height: 1.8;
+    }
+
+    .under-page .section h5 {
+        font-size: 16px;
+    }
 
 }
 
